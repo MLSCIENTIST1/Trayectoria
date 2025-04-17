@@ -6,19 +6,19 @@ from src.api import api_bp  # Importa el Blueprint principal de las APIs
 
 from flask_cors import CORS
 from flask_restful import Api
-from src.api.register_api import CreateServiceAPI
+
 
 from src.models.usuarios import Usuario
-from src.models.etapa import Etapa  # Nuevo modelo
-from src.models.foto import Foto  # Nuevo modelo
-from src.models.audio import Audio  # Nuevo modelo
-from src.models.video import Video  # Nuevo modelo
-from src.models.colombia_data.colombia_data import Colombia  # Importación de `Colombia`
-from src.models.colombia_data.colombia_feedbacks import Feedback  # Importación de `Feedback`
-from src.models.colombia_data.monetization_management import MonetizationManagement  # Importación de `MonetizationManagement`
-from src.models.colombia_data.ratings.service_overall_scores import ServiceOverallScores  # Importación de `ServiceOverallScores`
-from src.models.colombia_data.ratings.service_qualifiers import ServiceQualifiers  # Importación de `ServiceQualifiers`
-from src.models.colombia_data.ratings.service_ratings import ServiceRatings  # Importación de `ServiceRatings`
+from src.models.etapa import Etapa
+from src.models.foto import Foto
+from src.models.audio import Audio
+from src.models.video import Video
+from src.models.colombia_data.colombia_data import Colombia
+from src.models.colombia_data.colombia_feedbacks import Feedback
+from src.models.colombia_data.monetization_management import MonetizationManagement
+from src.models.colombia_data.ratings.service_overall_scores import ServiceOverallScores
+from src.models.colombia_data.ratings.service_qualifiers import ServiceQualifiers
+from src.models.colombia_data.ratings.service_ratings import ServiceRatings
 
 import os
 import sys
@@ -40,11 +40,11 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class Config:
-    SECRET_KEY = 'tu_clave_secreta_segura'
+    SECRET_KEY = os.environ.get('SECRET_KEY', 'clave_secreta_predeterminada')
 
 def create_app():
     logger.info("Inicializando la aplicación Flask")
-    flask_env = os.environ.get('FLASK_ENV')
+    flask_env = os.environ.get('FLASK_ENV', 'development')
     logger.info(f"El valor de FLASK_ENV es: {flask_env}")
 
     app = Flask(__name__)
@@ -61,7 +61,7 @@ def create_app():
         logger.info("Intentando inicializar la base de datos...")
         init_app(app)
         global migrate
-        migrate = Migrate(app, db)  # ¡Aquí se inicializa Flask-Migrate correctamente!
+        migrate = Migrate(app, db)
         logger.info("Base de datos y migración inicializadas correctamente")
     except Exception as e:
         logger.error(f"Error inicializando la base de datos: {e}", exc_info=True)
@@ -95,7 +95,7 @@ def create_app():
 
     # Inicializar Flask-RESTful y registrar recursos
     api = Api(app)
-    api.add_resource(CreateServiceAPI, '/api/create-service')  # Registro del recurso de ejemplo
+    
     logger.info("API RESTful inicializada y recurso registrado")
 
     app.config['UPLOAD_FOLDER'] = 'static/uploads/'
