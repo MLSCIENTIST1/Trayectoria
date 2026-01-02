@@ -1,5 +1,13 @@
 import logging
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+sys.path.append(os.path.join(os.path.abspath(os.path.dirname(__file__)), "src"))
+
+
 from src import create_app
+
+
 from flask_migrate import Migrate
 # Configurar el logger
 logger = logging.getLogger(__name__)
@@ -12,8 +20,13 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
+
 # Iniciar la aplicación
 logger.info("Inicializando la aplicación desde run.py")
+
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+sys.path.append(os.path.join(os.path.abspath(os.path.dirname(__file__)), "src"))
+
 
 try:
     app = create_app()  # Crear la aplicación

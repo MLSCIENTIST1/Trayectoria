@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
-from datetime import datetime  # Corrección aquí: importar datetime para usar utcnow
+from datetime import datetime  
 from src.models.database import db
 
 import logging
@@ -16,6 +16,10 @@ class ServiceRatings(db.Model):
     id_rating = db.Column(db.Integer, primary_key=True)
     servicio_id = db.Column(db.Integer, db.ForeignKey('servicio.id_servicio', ondelete='CASCADE'), nullable=False)
     usuario_id = db.Column(db.Integer, db.ForeignKey('usuario.id_usuario', ondelete='CASCADE'), nullable=False)
+
+    # 📌 Relación con `PlantillaPersonalizada`
+    plantilla_id = db.Column(db.Integer, db.ForeignKey("plantilla_personalizada.id"), nullable=True)
+    plantilla = db.relationship("PlantillaPersonalizada", back_populates="calificaciones", foreign_keys=[plantilla_id])
 
     # Calificaciones (Contratante -> Contratado y viceversa)
     calificacion_recived_contratante1 = db.Column(db.Integer, nullable=True)

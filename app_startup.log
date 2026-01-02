@@ -58608,3 +58608,1302 @@ AttributeError: 'function' object has no attribute 'subdomain'
 2025-03-30 08:27:24,375 - __main__ - INFO - Inicializando la aplicación desde run.py
 2025-03-30 08:27:24,398 - __main__ - INFO - Aplicación creada exitosamente
 2025-03-30 08:27:24,399 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-04-17 00:51:44,913 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-04-17 00:51:44,955 - __main__ - ERROR - Error crítico al inicializar la aplicación: name 'CreateServiceAPI' is not defined
+Traceback (most recent call last):
+  File "C:\Users\carlo\Desktop\proyecto_sena\TRAYECTORIA_Python_mvc\run.py", line 19, in <module>
+    app = create_app()  # Crear la aplicación
+  File "C:\Users\carlo\Desktop\proyecto_sena\TRAYECTORIA_Python_mvc\src\__init__.py", line 98, in create_app
+    api.add_resource(CreateServiceAPI, '/api/create-service')  # Registro del recurso de ejemplo
+                     ^^^^^^^^^^^^^^^^
+NameError: name 'CreateServiceAPI' is not defined
+2025-04-17 00:51:44,969 - __main__ - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-04-17 00:52:57,269 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-04-17 00:52:57,292 - __main__ - INFO - Aplicación creada exitosamente
+2025-04-17 00:52:57,293 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-04-17 00:52:58,907 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-04-17 00:52:58,920 - __main__ - INFO - Aplicación creada exitosamente
+2025-04-17 00:52:58,921 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-04-17 00:53:06,785 - __main__ - DEBUG - Ruta de inicio accesada
+2025-04-17 00:53:37,610 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-04-17 00:53:37,623 - __main__ - INFO - Aplicación creada exitosamente
+2025-04-17 00:53:37,624 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-04-17 05:27:49,930 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-04-17 05:27:49,944 - __main__ - INFO - Aplicación creada exitosamente
+2025-04-17 05:27:49,945 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-04-17 05:27:51,469 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-04-17 05:27:51,484 - __main__ - INFO - Aplicación creada exitosamente
+2025-04-17 05:27:51,486 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 16:26:55,316 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 16:26:55,404 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 16:26:55,405 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 16:26:57,258 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 16:26:57,279 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 16:26:57,280 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 16:27:06,044 - __main__ - DEBUG - Ruta de inicio accesada
+2025-05-07 16:58:38,411 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 16:58:38,424 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 16:58:38,425 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 16:58:40,396 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 16:58:40,416 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 16:58:40,416 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 17:07:59,462 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 17:07:59,477 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 17:07:59,478 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 17:08:01,172 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 17:08:01,186 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 17:08:01,187 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 17:31:08,531 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-07 17:31:08,551 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-07 17:32:06,271 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-07 17:32:06,287 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-07 17:32:39,480 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 17:32:39,493 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 17:32:39,494 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 17:32:41,066 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 17:32:41,079 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 17:32:41,080 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 17:35:38,475 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 17:35:38,491 - __main__ - ERROR - Error crítico al inicializar la aplicación: 'Flask' object has no attribute 'db'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 25, in <module>
+    migrate = Migrate(app, app.db)  # Vincular Flask-Migrate con la base de datos
+                           ^^^^^^
+AttributeError: 'Flask' object has no attribute 'db'
+2025-05-07 17:35:38,493 - __main__ - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-07 17:42:24,261 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 17:42:24,274 - __main__ - ERROR - Error crítico al inicializar la aplicación: 'Flask' object has no attribute 'db'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 25, in <module>
+    migrate = Migrate(app, app.db)  # Vincular Flask-Migrate con la base de datos
+                           ^^^^^^
+AttributeError: 'Flask' object has no attribute 'db'
+2025-05-07 17:42:24,276 - __main__ - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-07 17:47:30,844 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 17:47:30,855 - __main__ - ERROR - Error crítico al inicializar la aplicación: 'Flask' object has no attribute 'db'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 25, in <module>
+    migrate = Migrate(app, app.db)  # Vincular Flask-Migrate con la base de datos
+                           ^^^^^^
+AttributeError: 'Flask' object has no attribute 'db'
+2025-05-07 17:47:30,858 - __main__ - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-07 17:48:24,549 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 17:48:24,564 - __main__ - ERROR - Error crítico al inicializar la aplicación: 'Flask' object has no attribute 'db'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 26, in <module>
+    migrate = Migrate(app, app.db)  # Vincular Flask-Migrate con la base de datos
+                           ^^^^^^
+AttributeError: 'Flask' object has no attribute 'db'
+2025-05-07 17:48:24,567 - __main__ - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-07 17:52:21,014 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 17:52:21,030 - __main__ - ERROR - Error crítico al inicializar la aplicación: 'Flask' object has no attribute 'db'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 26, in <module>
+    migrate = Migrate(app, app.db)  # Vincular Flask-Migrate con la base de datos
+                           ^^^^^^
+AttributeError: 'Flask' object has no attribute 'db'
+2025-05-07 17:52:21,032 - __main__ - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-07 17:52:53,701 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 17:52:53,713 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 17:52:53,714 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 17:52:55,102 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 17:52:55,118 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 17:52:55,119 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 17:58:27,089 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 17:58:27,102 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 17:58:27,102 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 17:59:41,296 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 17:59:41,675 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 17:59:41,676 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 17:59:54,024 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 17:59:54,122 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 17:59:54,123 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 17:59:55,845 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 17:59:55,916 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 17:59:55,916 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 18:11:40,538 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 18:11:40,661 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 18:11:40,662 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 18:11:42,330 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 18:11:42,425 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 18:11:42,426 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 18:19:13,343 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 18:19:13,423 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 18:19:13,424 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 18:26:29,958 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 18:26:30,054 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 18:26:30,054 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 18:30:31,576 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 18:30:31,674 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 18:30:31,675 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 18:35:45,291 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 18:35:45,397 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 18:35:45,398 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 18:37:50,000 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 18:37:50,088 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 18:37:50,088 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 18:44:53,058 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 18:44:53,159 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 18:44:53,160 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 18:46:05,058 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 18:46:05,144 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 18:46:05,145 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 18:46:08,034 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 18:46:08,144 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 18:46:08,145 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 18:49:51,329 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 18:49:51,398 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 18:49:51,399 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 18:51:20,684 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 18:51:20,747 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 18:51:20,748 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 19:00:09,988 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 19:00:10,064 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 19:00:10,065 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 19:01:36,588 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 19:01:36,676 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 19:01:36,677 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 19:03:23,536 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 19:03:23,612 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 19:03:23,612 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 19:04:23,262 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 19:04:23,338 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 19:04:23,338 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 19:04:24,704 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 19:04:24,764 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 19:04:24,765 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 19:06:45,443 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 19:06:45,538 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 19:06:45,540 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 19:19:15,965 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 19:19:16,026 - __main__ - ERROR - Error crítico al inicializar la aplicación: 'return' outside function (register_user_api.py, line 5)
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 19, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 57, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 75, in register_api
+    from .utils.register_user_api import register_user_bp
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\utils\register_user_api.py", line 5
+    return jsonify({"error": "El nombre de la ciudad no es válido."}), 400
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'return' outside function
+2025-05-07 19:19:16,033 - __main__ - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-07 19:21:09,654 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 19:21:09,738 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 19:21:09,739 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 19:21:11,620 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 19:21:11,742 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 19:21:11,743 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 19:24:18,349 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 19:24:18,448 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 19:24:18,449 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 19:26:23,760 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 19:26:23,862 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 19:26:23,863 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 19:35:37,345 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 19:35:37,461 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 19:35:37,462 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 20:06:53,392 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 20:06:53,471 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 20:06:53,472 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 20:06:55,002 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 20:06:55,071 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 20:06:55,072 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 20:08:58,173 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 20:08:58,253 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 20:08:58,254 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 20:14:01,076 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 20:14:01,162 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 20:14:01,163 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 20:56:16,670 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 20:56:16,704 - __main__ - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-07 20:56:27,688 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 20:56:27,755 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 20:56:27,755 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 20:56:29,079 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 20:56:29,177 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 20:56:29,177 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 21:01:34,724 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 21:01:34,833 - __main__ - ERROR - Error crítico al inicializar la aplicación: cannot import name 'register_user_bp' from 'src.api.utils.register_user_api' (F:\TRAYECTORIA_Python_mvc_backend\src\api\utils\register_user_api.py)
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 19, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 57, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 75, in register_api
+    from .utils.register_user_api import register_user_bp
+ImportError: cannot import name 'register_user_bp' from 'src.api.utils.register_user_api' (F:\TRAYECTORIA_Python_mvc_backend\src\api\utils\register_user_api.py)
+2025-05-07 21:01:34,841 - __main__ - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-07 21:02:13,207 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 21:02:13,256 - __main__ - ERROR - Error crítico al inicializar la aplicación: cannot import name 'register_user_bp' from 'src.api.utils.register_user_api' (F:\TRAYECTORIA_Python_mvc_backend\src\api\utils\register_user_api.py)
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 19, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 57, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 75, in register_api
+    from .utils.register_user_api import register_user_bp
+ImportError: cannot import name 'register_user_bp' from 'src.api.utils.register_user_api' (F:\TRAYECTORIA_Python_mvc_backend\src\api\utils\register_user_api.py)
+2025-05-07 21:02:13,259 - __main__ - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-07 21:03:27,365 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 21:03:27,426 - __main__ - ERROR - Error crítico al inicializar la aplicación: cannot import name 'register_user_bp' from 'src.api.utils.register_user_api' (F:\TRAYECTORIA_Python_mvc_backend\src\api\utils\register_user_api.py)
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 19, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 57, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 59, in register_api
+    from .utils.register_user_api import register_user_bp
+ImportError: cannot import name 'register_user_bp' from 'src.api.utils.register_user_api' (F:\TRAYECTORIA_Python_mvc_backend\src\api\utils\register_user_api.py)
+2025-05-07 21:03:27,430 - __main__ - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-07 21:04:06,447 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 21:04:06,528 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 21:04:06,529 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 21:04:07,980 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 21:04:08,045 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 21:04:08,046 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 21:04:32,352 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 21:04:32,415 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 21:04:32,416 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 21:04:43,632 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 21:04:43,696 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 21:04:43,697 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 21:04:45,100 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 21:04:45,179 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 21:04:45,181 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 21:05:09,630 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 21:05:09,654 - __main__ - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-07 21:57:02,807 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 21:57:02,899 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 21:57:02,900 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 21:57:04,389 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 21:57:04,464 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 21:57:04,464 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 21:57:48,011 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 21:57:48,094 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 21:57:48,095 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 21:57:49,557 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 21:57:49,625 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 21:57:49,625 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 22:54:12,856 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 22:54:12,932 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 22:54:12,933 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 22:54:14,377 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 22:54:14,440 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 22:54:14,441 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 22:59:05,019 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 22:59:05,102 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 22:59:05,103 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 23:06:41,027 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 23:06:41,133 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 23:06:41,134 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 23:06:42,476 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 23:06:42,540 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 23:06:42,541 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 23:08:07,292 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 23:08:07,366 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 23:08:07,367 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 23:17:49,159 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 23:17:49,265 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 23:17:49,266 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 23:32:27,737 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 23:32:27,804 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 23:32:27,805 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-07 23:32:29,184 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-07 23:32:29,258 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-07 23:32:29,259 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-08 00:29:40,822 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-08 00:29:40,913 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-08 00:29:40,913 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-08 00:33:41,652 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-08 00:33:41,743 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-08 00:33:41,744 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-08 00:48:02,555 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-08 00:48:02,678 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-08 00:48:02,679 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-08 00:50:51,107 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-08 00:50:51,181 - __main__ - ERROR - Error crítico al inicializar la aplicación: invalid syntax (search_results_api.py, line 1)
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 19, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 57, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 63, in register_api
+    from .search.search_results_api import search_results_bp
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\search\search_results_api.py", line 1
+    <!DOCTYPE html>
+    ^
+SyntaxError: invalid syntax
+2025-05-08 00:50:51,217 - __main__ - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 00:54:12,676 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-08 00:54:13,091 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-08 00:54:13,094 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-08 00:54:15,206 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-08 00:54:15,315 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-08 00:54:15,316 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-08 00:56:44,702 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-08 00:56:44,799 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-08 00:56:44,800 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-08 07:12:10,206 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-08 07:12:10,400 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-08 07:12:10,401 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-08 07:12:12,157 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-08 07:12:12,233 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-08 07:12:12,234 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-08 07:30:05,953 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-08 07:30:06,020 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-08 07:30:06,021 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-08 07:30:07,428 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-08 07:30:07,509 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-08 07:30:07,511 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-08 07:44:47,551 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-08 07:44:47,718 - __main__ - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 07:45:01,520 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-08 07:45:01,556 - __main__ - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 07:48:09,817 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-08 07:48:09,890 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-08 07:48:09,891 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-08 07:48:11,264 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-08 07:48:11,365 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-08 07:48:11,366 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-08 07:51:38,060 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-08 07:51:38,147 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-08 07:51:38,147 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-08 08:02:36,888 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:02:36,963 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-08 08:02:36,964 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-08 08:02:38,241 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:02:38,322 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-08 08:02:38,323 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-08 08:02:57,490 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:02:57,561 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-08 08:02:57,561 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-08 08:02:58,935 - __main__ - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:02:59,005 - __main__ - INFO - Aplicación creada exitosamente
+2025-05-08 08:02:59,006 - __main__ - INFO - Ejecutando la aplicación en modo depuración
+2025-05-08 08:07:41,414 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:07:41,501 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 08:07:54,237 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:07:54,304 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 08:08:24,232 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:08:24,307 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 08:09:07,453 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:09:07,527 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 08:26:07,640 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:26:07,746 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 08:27:52,909 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:27:52,979 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 08:27:54,585 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:27:54,666 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 08:30:23,257 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:30:23,467 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 08:42:08,588 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:42:08,673 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 08:42:10,076 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:42:10,161 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 08:48:15,523 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:48:15,585 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: 'tuple' object has no attribute 'subdomain'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 58, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 99, in register_api
+    app.register_blueprint(api_bp, url_prefix="/api")
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\carlo\Desktop\proyecto_sena\TRAYECTORIA_Python_mvc\venv\Lib\site-packages\flask\sansio\scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "C:\Users\carlo\Desktop\proyecto_sena\TRAYECTORIA_Python_mvc\venv\Lib\site-packages\flask\sansio\app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\carlo\Desktop\proyecto_sena\TRAYECTORIA_Python_mvc\venv\Lib\site-packages\flask\sansio\blueprints.py", line 355, in register
+    bp_subdomain = blueprint.subdomain
+                   ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'subdomain'
+2025-05-08 08:48:15,637 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 08:48:46,187 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:48:46,264 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: 'tuple' object has no attribute 'subdomain'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 58, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 99, in register_api
+    app.register_blueprint(api_bp, url_prefix="/api")
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\carlo\Desktop\proyecto_sena\TRAYECTORIA_Python_mvc\venv\Lib\site-packages\flask\sansio\scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "C:\Users\carlo\Desktop\proyecto_sena\TRAYECTORIA_Python_mvc\venv\Lib\site-packages\flask\sansio\app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\carlo\Desktop\proyecto_sena\TRAYECTORIA_Python_mvc\venv\Lib\site-packages\flask\sansio\blueprints.py", line 355, in register
+    bp_subdomain = blueprint.subdomain
+                   ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'subdomain'
+2025-05-08 08:48:46,271 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 08:48:58,436 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:48:58,488 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: 'tuple' object has no attribute 'subdomain'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 58, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 99, in register_api
+    app.register_blueprint(api_bp, url_prefix="/api")
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\carlo\Desktop\proyecto_sena\TRAYECTORIA_Python_mvc\venv\Lib\site-packages\flask\sansio\scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "C:\Users\carlo\Desktop\proyecto_sena\TRAYECTORIA_Python_mvc\venv\Lib\site-packages\flask\sansio\app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\carlo\Desktop\proyecto_sena\TRAYECTORIA_Python_mvc\venv\Lib\site-packages\flask\sansio\blueprints.py", line 355, in register
+    bp_subdomain = blueprint.subdomain
+                   ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'subdomain'
+2025-05-08 08:48:58,492 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 08:55:02,803 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:55:02,859 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: No module named 'src.api.services.publish_service_bp'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 57, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 70, in register_api
+    from .services.publish_service_bp import publish_service_bp
+ModuleNotFoundError: No module named 'src.api.services.publish_service_bp'
+2025-05-08 08:55:02,861 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 08:57:16,212 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:57:16,263 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: No module named 'src.api.services.publish_service_bp'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 58, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 70, in register_api
+    from .services.publish_service_bp import publish_service_bp
+ModuleNotFoundError: No module named 'src.api.services.publish_service_bp'
+2025-05-08 08:57:16,265 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 08:57:26,590 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:57:26,636 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: No module named 'src.api.services.publish_service_bp'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 58, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 70, in register_api
+    from .services.publish_service_bp import publish_service_bp
+ModuleNotFoundError: No module named 'src.api.services.publish_service_bp'
+2025-05-08 08:57:26,639 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 08:57:50,935 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:57:51,034 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: 'tuple' object has no attribute 'subdomain'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 58, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 99, in register_api
+    app.register_blueprint(api_bp, url_prefix="/api")
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\carlo\Desktop\proyecto_sena\TRAYECTORIA_Python_mvc\venv\Lib\site-packages\flask\sansio\scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "C:\Users\carlo\Desktop\proyecto_sena\TRAYECTORIA_Python_mvc\venv\Lib\site-packages\flask\sansio\app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\carlo\Desktop\proyecto_sena\TRAYECTORIA_Python_mvc\venv\Lib\site-packages\flask\sansio\blueprints.py", line 355, in register
+    bp_subdomain = blueprint.subdomain
+                   ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'subdomain'
+2025-05-08 08:57:51,041 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 08:58:02,368 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:58:02,438 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 08:58:04,048 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 08:58:04,153 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 09:00:17,308 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 09:00:17,398 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 11:25:36,932 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 11:25:37,011 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 11:51:46,768 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 11:51:46,843 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 11:52:18,054 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 11:52:18,136 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 12:00:53,370 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 12:00:53,462 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 12:02:14,662 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 12:02:14,707 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: cannot import name 'PlantillaPersonalizada' from 'src.models.plantilla_personalizada' (F:\TRAYECTORIA_Python_mvc_backend\src\models\plantilla_personalizada.py)
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 58, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 32, in register_api
+    from .plantillas.plantillas_views import plantillas_views_bp
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\plantillas\plantillas_views.py", line 4, in <module>
+    from src.models.plantilla_personalizada import PlantillaPersonalizada
+ImportError: cannot import name 'PlantillaPersonalizada' from 'src.models.plantilla_personalizada' (F:\TRAYECTORIA_Python_mvc_backend\src\models\plantilla_personalizada.py)
+2025-05-08 12:02:14,713 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 12:07:24,508 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 12:07:24,631 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 12:07:50,326 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 12:07:50,426 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 12:11:02,660 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 12:11:02,747 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 12:11:22,650 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 12:11:22,733 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 12:14:04,858 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 12:14:04,979 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 12:14:09,798 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 12:14:09,904 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 12:16:28,767 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 12:16:28,852 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 12:16:56,062 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 12:16:56,152 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 12:17:30,703 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 12:17:30,795 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 12:18:18,563 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 12:18:18,651 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 12:47:43,673 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 12:47:43,772 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 12:47:45,241 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 12:47:45,338 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 12:57:04,650 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 12:57:04,741 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 12:57:18,524 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 12:57:18,574 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: No module named 'src.api.services.delete_service_bp'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 58, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 66, in register_api
+    from .services.delete_service_bp import delete_service_bp
+ModuleNotFoundError: No module named 'src.api.services.delete_service_bp'
+2025-05-08 12:57:18,576 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 12:58:12,761 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 12:58:12,838 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 12:58:19,519 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 12:58:19,564 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: No module named 'src.api.services.delete_service_bp'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 58, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 66, in register_api
+    from .services.delete_service_bp import delete_service_bp
+ModuleNotFoundError: No module named 'src.api.services.delete_service_bp'
+2025-05-08 12:58:19,566 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 12:58:58,308 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 12:58:58,410 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 13:00:01,261 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 13:00:01,344 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 13:00:18,977 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 13:00:19,088 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: name 'register_user_api' is not defined
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 58, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 91, in register_api
+    get_cities_bp, register_user_api, plantillas_views_bp
+                   ^^^^^^^^^^^^^^^^^
+NameError: name 'register_user_api' is not defined. Did you mean: 'register_user_bp'?
+2025-05-08 13:00:19,094 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 13:01:29,625 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 13:01:29,714 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: 'tuple' object has no attribute 'subdomain'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 58, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 98, in register_api
+    app.register_blueprint(api_bp, url_prefix="/api")
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\carlo\Desktop\proyecto_sena\TRAYECTORIA_Python_mvc\venv\Lib\site-packages\flask\sansio\scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "C:\Users\carlo\Desktop\proyecto_sena\TRAYECTORIA_Python_mvc\venv\Lib\site-packages\flask\sansio\app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\carlo\Desktop\proyecto_sena\TRAYECTORIA_Python_mvc\venv\Lib\site-packages\flask\sansio\blueprints.py", line 355, in register
+    bp_subdomain = blueprint.subdomain
+                   ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'subdomain'
+2025-05-08 13:01:29,723 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 13:01:46,357 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 13:01:46,442 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 13:03:28,914 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 13:03:29,020 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 13:03:36,828 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 13:03:36,945 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 13:05:31,375 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 13:05:31,458 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 13:05:32,826 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 13:05:32,907 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 13:35:01,355 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 13:35:01,480 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 13:35:23,611 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 13:35:23,699 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 13:35:33,328 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 13:35:33,465 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 13:35:34,887 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 13:35:34,968 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 14:03:34,238 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 14:03:34,335 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 14:09:29,413 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 14:09:29,540 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 14:23:08,001 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 14:23:08,104 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 14:24:32,504 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 14:24:32,593 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 14:24:34,129 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 14:24:34,214 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 15:05:33,288 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 15:05:33,401 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 15:08:26,308 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 15:08:26,446 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 15:09:31,198 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 15:09:31,321 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 15:32:27,107 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 15:32:27,156 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: cannot import name 'show_notifications_api_bp' from 'src.api.notifications.show_notifications_api' (F:\TRAYECTORIA_Python_mvc_backend\src\api\notifications\show_notifications_api.py)
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 58, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 55, in register_api
+    from .notifications.show_notifications_api import show_notifications_api_bp
+ImportError: cannot import name 'show_notifications_api_bp' from 'src.api.notifications.show_notifications_api' (F:\TRAYECTORIA_Python_mvc_backend\src\api\notifications\show_notifications_api.py)
+2025-05-08 15:32:27,164 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 15:50:06,551 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 15:50:07,534 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: No module named 'src.api.notifications.request_more_details_api'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 58, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 44, in register_api
+    from .notifications.request_more_details_api import request_more_details_bp
+ModuleNotFoundError: No module named 'src.api.notifications.request_more_details_api'
+2025-05-08 15:50:07,537 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 15:51:15,402 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 15:51:16,262 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: No module named 'src.api.services.view_service_page_api'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 58, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 62, in register_api
+    from .services.view_service_page_api import view_service_page_bp
+ModuleNotFoundError: No module named 'src.api.services.view_service_page_api'
+2025-05-08 15:51:16,265 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 15:52:10,466 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 15:52:11,237 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: name 'accept_notification_bp' is not defined
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 58, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 71, in register_api
+    accept_notification_bp, chat_bp, detail_notifications_bp, notifications_bp,
+    ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'accept_notification_bp' is not defined. Did you mean: 'reject_notification_bp'?
+2025-05-08 15:52:11,249 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 15:52:17,509 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 15:52:18,337 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: name 'accept_notification_bp' is not defined
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 58, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 71, in register_api
+    accept_notification_bp, chat_bp, detail_notifications_bp, notifications_bp,
+    ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'accept_notification_bp' is not defined. Did you mean: 'reject_notification_bp'?
+2025-05-08 15:52:18,344 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-08 15:54:25,647 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 15:54:26,266 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 15:54:27,713 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 15:54:28,451 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 16:10:59,843 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 16:11:00,542 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 16:11:02,206 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 16:11:02,958 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 16:12:57,474 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 16:12:58,228 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 16:16:50,911 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 16:16:51,692 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 16:20:27,280 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 16:20:28,021 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 16:20:29,697 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 16:20:30,513 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 16:22:59,880 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 16:23:00,552 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 16:23:02,072 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 16:23:03,104 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 16:31:00,413 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 16:31:01,082 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 16:44:11,245 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 16:44:11,948 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 16:45:55,902 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 16:45:56,790 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 16:45:58,645 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 16:45:59,514 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 17:01:02,581 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 17:01:03,431 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 17:08:59,614 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 17:09:00,252 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 17:09:01,766 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 17:09:02,402 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 17:09:50,807 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 17:09:51,707 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 17:09:53,426 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 17:09:54,210 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 17:19:08,667 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 17:19:09,504 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 17:19:11,361 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 17:19:12,306 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 17:22:31,969 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 17:22:32,604 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 17:22:34,566 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 17:22:35,340 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 17:29:38,090 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 17:29:39,236 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 17:36:10,776 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 17:36:11,510 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 17:36:13,036 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 17:36:13,855 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 17:44:12,347 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 17:44:13,096 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 17:44:14,940 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 17:44:15,671 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 17:46:36,008 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 17:46:36,711 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 17:52:08,854 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 17:52:09,744 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 17:52:11,657 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 17:52:12,499 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 18:19:04,759 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 18:19:05,974 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 18:20:52,507 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 18:20:53,389 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 18:33:50,819 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 18:33:51,749 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 18:48:32,549 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 18:48:33,275 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 18:51:47,445 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 18:51:48,359 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 19:01:35,808 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 19:01:36,992 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 19:06:13,779 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 19:06:14,446 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 22:14:03,496 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 22:14:04,258 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 22:14:07,762 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 22:14:08,519 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 22:27:02,278 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 22:27:03,319 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-08 22:27:05,967 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-08 22:27:06,885 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 12:05:20,611 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 12:05:20,723 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-09 12:05:22,218 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 12:05:22,279 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-09 12:12:34,930 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 12:12:34,962 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-09 12:12:38,187 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 12:12:38,219 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-09 12:29:36,288 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 12:29:36,316 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-09 12:29:37,858 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 12:29:37,889 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-09 12:31:58,750 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 12:31:58,780 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-09 12:32:00,282 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 12:32:00,321 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-09 12:41:10,381 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 12:41:12,738 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 12:41:15,677 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 12:41:16,914 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 13:14:39,247 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 13:14:40,595 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: cannot import name 'perfil_bp' from 'src.api.perfil_api' (F:\TRAYECTORIA_Python_mvc_backend\src\api\perfil_api.py)
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 67, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 36, in register_api
+    from .perfil_api import perfil_bp
+ImportError: cannot import name 'perfil_bp' from 'src.api.perfil_api' (F:\TRAYECTORIA_Python_mvc_backend\src\api\perfil_api.py)
+2025-05-09 13:14:40,599 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-09 13:32:38,924 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 13:32:40,193 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: expected an indented block after 'except' statement on line 55 (formulario_api.py, line 56)
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 67, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 62, in register_api
+    from .formulario_api import formulario_bp
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\formulario_api.py", line 56
+    except Exception as e:
+    ^^^^^^
+IndentationError: expected an indented block after 'except' statement on line 55
+2025-05-09 13:32:40,196 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-09 13:35:19,675 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 13:35:20,227 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-09 13:36:39,920 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 13:36:40,485 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: expected 'except' or 'finally' block (ia_processor.py, line 165)
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 67, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 36, in register_api
+    from .perfil_api import perfil_bp
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\perfil_api.py", line 7, in <module>
+    from src.utils.ia_processor import generar_html_con_gemini
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\utils\ia_processor.py", line 165
+    
+    ^
+SyntaxError: expected 'except' or 'finally' block
+2025-05-09 13:36:40,489 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-09 13:37:37,560 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 13:37:38,881 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: 'Blueprint' object has no attribute 'py'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 67, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 74, in register_api
+    perfil_bp, perfil_render_bp,formulario_bp.py,chat_bp, detail_notifications_bp, notifications_bp,
+                                ^^^^^^^^^^^^^^^^
+AttributeError: 'Blueprint' object has no attribute 'py'
+2025-05-09 13:37:38,885 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-09 13:38:31,712 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 13:38:32,976 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 14:09:14,412 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 14:09:16,535 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 14:12:50,702 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 14:12:53,007 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: name 'view_logged_user_api' is not defined
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 67, in create_app
+    register_api(app)
+    ~~~~~~~~~~~~^^^^^
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\api\__init__.py", line 66, in register_api
+    edit_profile_bp, logic_delete_user_bp, view_logged_user_api, view_user_info_bp,
+                                           ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'view_logged_user_api' is not defined. Did you mean: 'view_logged_user_bp'?
+2025-05-09 14:12:53,048 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-09 14:17:26,445 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 14:17:27,955 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 14:23:13,806 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 14:23:15,802 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 14:23:18,231 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 14:23:19,811 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 14:23:53,741 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 14:23:55,910 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 14:34:22,845 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 14:34:24,605 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 14:34:27,495 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 14:34:29,470 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 14:34:37,034 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 14:34:38,655 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 14:39:58,236 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 14:39:59,867 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 14:40:02,611 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 14:40:04,182 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 14:40:27,147 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 14:40:28,945 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 15:02:33,417 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 15:02:35,159 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 15:14:18,845 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 15:14:20,540 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 16:10:51,360 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 16:10:52,964 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 16:32:10,354 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 16:32:12,309 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 16:33:17,421 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 16:33:19,038 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 19:28:48,823 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 19:28:50,522 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 21:08:46,371 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 21:08:48,149 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 22:12:30,334 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 22:12:32,019 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 22:30:59,603 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 22:30:59,633 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 22:33:51,539 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 22:33:53,353 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 22:59:39,568 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 22:59:41,157 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-09 23:09:10,886 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-09 23:09:12,551 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-10 07:13:15,567 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-10 07:13:18,222 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-10 07:35:58,920 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-10 07:36:00,182 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-10 07:36:54,611 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-10 07:36:55,835 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-10 07:52:21,270 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-10 07:52:23,801 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-10 08:22:10,885 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-10 08:22:13,506 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-10 09:13:55,717 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-10 09:13:57,523 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-10 09:41:55,802 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-10 09:41:57,977 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-10 09:48:10,714 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-10 09:48:12,388 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-10 09:50:46,745 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-10 09:50:48,468 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-10 09:58:50,326 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-10 09:58:51,860 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-10 13:48:12,650 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-10 13:48:14,244 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-10 14:07:42,443 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-10 14:07:44,240 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-10 14:24:12,043 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-10 14:24:14,501 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-10 14:24:16,575 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-10 14:24:18,297 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 07:05:45,684 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 07:05:48,049 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 07:05:49,802 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 07:05:51,085 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 09:31:06,920 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 09:31:09,639 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 09:31:11,668 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 09:31:13,568 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 10:37:11,237 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 10:37:13,150 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 10:44:45,730 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 10:44:47,527 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 10:44:49,356 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 10:44:51,049 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 10:58:50,322 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 10:58:52,146 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 10:58:53,937 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 10:58:55,738 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 11:02:44,563 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 11:02:46,211 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 11:02:47,926 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 11:02:49,689 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 11:10:33,927 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 11:10:35,675 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 11:11:15,587 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 11:11:17,239 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 11:13:56,721 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 11:13:58,415 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 11:14:00,026 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 11:14:01,757 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 11:28:23,067 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 11:28:24,853 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 11:38:32,094 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 11:38:33,855 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 11:38:35,537 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 11:38:37,189 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 11:52:16,729 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 11:52:18,375 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 11:52:20,244 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 11:52:21,996 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 11:59:53,030 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 11:59:54,721 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 11:59:56,656 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 11:59:58,339 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 12:03:41,434 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:03:43,221 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 12:06:13,757 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:06:15,378 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 12:08:00,641 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:08:02,217 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: 'NoneType' object has no attribute 'is_authenticated'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 81, in create_app
+    if current_user.is_authenticated:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_authenticated'
+2025-05-11 12:08:02,227 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-11 12:15:32,987 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:15:34,629 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-11 12:17:55,414 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:17:57,361 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: 'NoneType' object has no attribute 'is_authenticated'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 81, in create_app
+    if current_user.is_authenticated:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_authenticated'
+2025-05-11 12:17:57,370 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-11 12:23:02,120 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:23:03,756 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 12:23:05,522 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:23:07,167 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 12:23:15,162 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:23:17,068 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 12:23:18,797 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:23:20,391 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 12:23:56,437 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:23:58,142 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 12:23:59,840 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:24:01,709 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 12:33:30,768 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:33:32,552 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 12:35:15,484 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:35:17,294 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 12:40:15,390 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:40:17,240 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 12:41:12,095 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:41:13,625 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 12:41:44,002 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:41:45,577 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 12:41:47,289 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:41:49,209 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 12:47:02,047 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:47:04,046 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 12:47:16,200 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:47:17,842 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 12:50:52,227 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:50:54,059 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 12:50:55,703 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 12:50:57,640 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 13:16:43,115 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 13:16:44,866 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 13:16:48,281 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 13:16:50,194 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 13:42:29,912 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 13:42:31,651 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 13:42:34,704 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 13:42:36,480 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 13:54:26,101 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 13:54:26,178 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 13:54:27,739 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 13:54:27,944 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 13:57:06,281 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 13:57:06,485 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 13:57:08,323 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 13:57:08,388 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 14:00:22,617 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 14:00:22,631 - TRAYECTORIA_Python_mvc_backend.run - ERROR - Error crítico al inicializar la aplicación: 'NoneType' object has no attribute 'is_authenticated'
+Traceback (most recent call last):
+  File "F:\TRAYECTORIA_Python_mvc_backend\run.py", line 32, in <module>
+    app = create_app()  # Crear la aplicación
+  File "F:\TRAYECTORIA_Python_mvc_backend\src\__init__.py", line 81, in create_app
+    if current_user.is_authenticated:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'is_authenticated'
+2025-05-11 14:00:22,634 - TRAYECTORIA_Python_mvc_backend.run - WARNING - La aplicación no se pudo iniciar debido a un error.
+2025-05-11 14:01:12,090 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 14:01:12,106 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 14:06:07,932 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 14:06:07,997 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 14:06:38,799 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 14:06:38,860 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 14:06:41,051 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 14:06:41,116 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 14:07:13,137 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 14:07:13,199 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 14:07:14,937 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 14:07:15,004 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 14:08:15,296 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 14:08:15,497 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 14:08:17,347 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 14:08:17,417 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 14:15:23,238 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 14:15:23,300 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 14:19:12,075 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 14:19:12,259 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 14:19:13,843 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 14:19:13,905 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 14:22:40,232 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 14:22:40,296 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 14:26:11,919 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 14:26:11,982 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 14:46:32,339 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 14:46:32,541 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 14:46:34,539 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 14:46:34,617 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 15:22:00,835 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 15:22:00,891 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 15:22:03,058 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 15:22:03,122 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 15:23:55,667 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 15:23:55,839 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 15:23:57,378 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 15:23:57,437 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 15:33:03,082 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 15:33:03,167 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 15:33:04,752 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 15:33:04,812 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 15:48:38,669 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 15:48:38,733 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 15:48:40,322 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 15:48:40,402 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 16:05:17,626 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 16:05:17,696 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 16:05:19,856 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 16:05:19,953 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 18:49:39,554 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 18:49:39,622 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 18:49:41,257 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 18:49:41,329 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 18:57:57,411 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 18:57:57,470 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 18:57:59,008 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 18:57:59,071 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 18:58:47,855 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 18:58:48,021 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 18:58:49,649 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 18:58:49,727 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 19:08:47,226 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 19:08:47,316 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 19:08:48,804 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 19:08:48,865 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 19:10:12,251 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 19:10:12,310 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 19:10:25,039 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 19:10:25,097 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 19:10:26,485 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 19:10:26,647 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 19:10:37,956 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 19:10:38,123 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 19:10:39,412 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 19:10:39,470 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 19:11:28,671 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 19:11:28,731 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 19:11:30,171 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 19:11:30,332 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 19:18:45,090 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 19:18:45,256 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 19:19:35,711 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 19:19:35,870 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 19:22:50,152 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 19:22:50,221 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 19:23:10,902 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 19:23:10,961 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 19:23:16,266 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 19:23:16,322 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 19:35:55,241 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 19:35:55,298 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 19:49:09,273 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 19:49:09,306 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 19:49:11,895 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 19:49:11,933 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 19:56:26,241 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 19:56:26,271 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:00:27,088 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:00:27,118 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:12:27,960 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:12:27,997 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:14:58,793 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:14:58,824 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:16:21,078 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:16:21,110 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:16:39,171 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:16:39,249 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:20:25,648 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:20:25,676 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:20:32,433 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:20:32,462 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:29:16,858 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:29:16,885 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:34:06,604 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:34:06,631 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:34:17,370 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:34:17,396 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:34:20,163 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:34:20,193 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:34:36,308 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:34:36,332 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:34:41,077 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:34:41,117 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:34:49,924 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:34:49,953 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:34:52,636 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:34:52,664 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:40:19,219 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:40:19,247 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:46:06,848 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:46:06,877 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:49:59,217 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:49:59,253 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:50:02,355 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:50:02,387 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:52:14,437 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:52:14,467 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 20:52:39,394 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 20:52:39,426 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 21:00:21,418 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 21:00:21,450 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 21:01:06,301 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 21:01:06,331 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 21:42:10,640 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 21:42:10,671 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 21:42:13,627 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 21:42:13,658 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 21:44:01,717 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 21:44:01,745 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 21:44:25,378 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 21:44:25,408 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 21:46:16,934 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 21:46:16,967 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 21:48:13,659 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 21:48:13,691 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 21:59:57,781 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 21:59:57,815 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 22:07:21,906 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 22:07:21,934 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 22:09:42,464 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 22:09:42,494 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 22:17:35,165 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 22:17:35,199 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 22:27:28,263 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 22:27:28,293 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 22:34:10,472 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 22:34:10,505 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 22:34:19,136 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 22:34:19,167 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 22:34:22,133 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 22:34:22,165 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 22:40:39,308 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 22:40:39,343 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-11 22:40:42,571 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-11 22:40:42,632 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-12 06:27:00,347 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-12 06:27:00,390 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-12 06:27:03,497 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-12 06:27:03,687 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-12 06:34:51,582 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-12 06:34:51,616 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-12 06:34:54,359 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-12 06:34:54,388 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente
+2025-05-19 13:25:50,784 - TRAYECTORIA_Python_mvc_backend.run - INFO - Inicializando la aplicación desde run.py
+2025-05-19 13:25:50,832 - TRAYECTORIA_Python_mvc_backend.run - INFO - Aplicación creada exitosamente

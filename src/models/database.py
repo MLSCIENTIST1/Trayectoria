@@ -1,69 +1,88 @@
+import os
+import sys
+import configparser
+import psycopg2
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
-import psycopg2
-import configparser
-import sys
+from pathlib import Path
 
-# Crear instancias globales
+# Instancias globales
 db = SQLAlchemy()
 migrate = Migrate()
 
-# Función para leer la configuración
-def read_config(file_path):
+def read_config():
+    """Lee la configuración buscando el archivo de forma dinámica."""
+    # Obtiene la carpeta donde está este archivo database.py
+    base_path = Path(__file__).resolve().parent
+    config_file = base_path / 'database.conf'
+    
+    print(f"🔍 [LOG]: Buscando configuración en: {config_file}")
+    
+    if not config_file.exists():
+        print(f"❌ [ERROR]: No se encontró database.conf en {base_path}")
+        return None
+        
     config = configparser.ConfigParser()
-    config.read(file_path, encoding='utf-8')
+    config.read(config_file, encoding='utf-8')
     return config
 
-# Leer las configuraciones desde el archivo `database.conf`
-config = read_config(r'C:\Users\carlo\Desktop\proyecto_sena\TRAYECTORIA_Python_mvc\src\models\database.conf')
-host = config['database']['host']
-user = config['database']['user']
-password = config['database']['password']
-database = config['database']['database']
+# --- PROCESO DE CARGA Y CONEXIÓN ---
+config_data = read_config()
 
-# URL de la base de datos
-DATABASE_URL = f"postgresql://{user}:{password}@{host}/{database}"
+if config_data:
+    host = config_data['database']['host']
+    user = config_data['database']['user']
+    password = config_data['database']['password']
+    database = config_data['database']['database']
+    
+    # IMPORTANTE: Añadimos sslmode=require para NEON Cloud
+    DATABASE_URL = f"postgresql://{user}:{password}@{host}/{database}?sslmode=require"
+    print(f"📡 [LOG]: Intentando conectar a Host: {host} | DB: {database}")
+else:
+    # Opción de emergencia por si usas variables de entorno en el futuro
+    DATABASE_URL = os.getenv('DATABASE_URL')
+    print("⚠️ [LOG]: Usando DATABASE_URL de variable de entorno.")
 
-# Probar conexión a la base de datos
+# Probar la conexión inmediata con psycopg2
 try:
-    engine = psycopg2.connect(DATABASE_URL)
-    print("Conexión exitosa a la base de datos")
+    # Verificamos conexión física
+    conn_test = psycopg2.connect(DATABASE_URL)
+    conn_test.close()
+    print("✅ [EXITO]: Conexión establecida con NEON Cloud (PostgreSQL).")
 except Exception as e:
-    print(f"Error al conectar a la base de datos: {e}")
+    print(f"💥 [ERROR CRÍTICO]: Falló la conexión a la base de datos: {e}")
 
-# Crear la base de datos si no existe
 def create_database():
-    print("Conectando a la base de datos postgres...")
-    conn = None
-    cur = None
+    """
+    Nota: En servicios Cloud como Neon, la base de datos se crea 
+    desde el panel web, no por código. Este método se mantiene por compatibilidad local.
+    """
+    print("🛠️ [LOG]: Verificando existencia de base de datos (Modo compatible)...")
     try:
-        conn = psycopg2.connect(
-            dbname='postgres',
-            user=user,
-            password=password,
-            host=host,
-            options='-c client_encoding=UTF8'
-        )
-        conn.autocommit = True
-        cur = conn.cursor()
+        # Intentar conexión a la base default para verificar
+        tmp_conn = psycopg2.connect(DATABASE_URL.replace(database, 'postgres'))
+        tmp_conn.autocommit = True
+        cur = tmp_conn.cursor()
         cur.execute("SELECT 1 FROM pg_database WHERE datname = %s", [database])
         if not cur.fetchone():
-            cur.execute(f"CREATE DATABASE {database}")
-            print(f"Base de datos '{database}' creada.")
+            print(f"🚀 [LOG]: La base de datos {database} no existe. Créala en el panel de Neon.")
         else:
-            print(f"La base de datos '{database}' ya existe.")
+            print(f"✨ [LOG]: Confirmado: La base de datos '{database}' está lista.")
+        cur.close()
+        tmp_conn.close()
     except Exception as e:
-        print(f"Error al crear la base de datos: {e}", file=sys.stderr)
-    finally:
-        if cur is not None:
-            cur.close()
-        if conn is not None:
-            conn.close()
+        print(f"ℹ️ [INFO]: Omitiendo validación manual de creación: {e}")
 
-# Inicializar la aplicación
 def init_app(app):
+    """Inicializa Flask con SQLAlchemy y Migrate."""
+    if not DATABASE_URL:
+        print("🛑 [ERROR]: No hay DATABASE_URL configurada. Revisa database.conf")
+        return
+
     app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URL
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+    
     db.init_app(app)
     migrate.init_app(app, db)
-    print("Base de datos y migraciones inicializadas correctamente")
+    
+    print("🚀 [LOG]: Flask-SQLAlchemy inicializado correctamente.")
