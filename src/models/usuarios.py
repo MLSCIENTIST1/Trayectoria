@@ -2,17 +2,19 @@ import bcrypt
 from sqlalchemy import Column, Integer, String, BigInteger, Boolean, ForeignKey
 from sqlalchemy.orm import relationship
 from src.models.database import db
+from flask_login import UserMixin  # ✅ Necesario para la sesión
 from src.models.servicio import Servicio
 from src.models.usuario_servicio import usuario_servicio
-from src.models.colombia_data.sesion_usuario import SesionUsuario  # ✅ Ajustada la importación desde `colombia_data`
+from src.models.colombia_data.sesion_usuario import SesionUsuario
 
-class Usuario(db.Model):
-    __tablename__ = "usuario"
+class Usuario(db.Model, UserMixin): # ✅ Añadido UserMixin
+    # IMPORTANTE: Se cambia a "usuarios" para coincidir con la FK de otros modelos
+    __tablename__ = "usuarios" 
 
-    # Definición de columnas
+    # 1. Definición de columnas
     id_usuario = Column(Integer, primary_key=True)
     ciudad_id = Column(Integer, ForeignKey("colombia.ciudad_id"), nullable=False)
-    ciudad = Column(String, nullable=False)
+    ciudad = Column(String, nullable=False) # Nombre de la ciudad (redundante pero mantenido según tu esquema)
     nombre = Column(String, nullable=False)
     apellidos = Column(String, nullable=False)
     correo = Column(String, nullable=False, unique=True)
@@ -26,17 +28,19 @@ class Usuario(db.Model):
     validate = Column(Boolean, nullable=True, default=False)
     black_list = Column(Boolean, nullable=True, default=False)
 
-    # ✅ Relación con `SesionUsuario`, ajustando la referencia al módulo correcto
+    # 2. Relaciones con carga segura
     sesiones = relationship("SesionUsuario", back_populates="usuario", cascade="all, delete-orphan")
 
-    # Relaciones existentes
+    # Relaciones de Notificaciones (usando strings para evitar importaciones circulares)
     sent_notifications = relationship("Notification", foreign_keys="[Notification.sender_id]", back_populates="sender")
     received_notifications = relationship("Notification", foreign_keys="[Notification.user_id]", back_populates="receiver")
+    
     received_feedbacks = relationship("Feedback", back_populates="usuario", cascade="all, delete-orphan", lazy="dynamic")
     monetizaciones = relationship("MonetizationManagement", back_populates="usuario", cascade="all, delete-orphan")
     calificaciones = relationship("ServiceRatings", back_populates="usuario", cascade="all, delete-orphan")
     plantillas = relationship("PlantillaPersonalizada", back_populates="usuario", cascade="all, delete-orphan")
 
+    # Servicios
     servicios = relationship("Servicio", secondary=usuario_servicio, back_populates="usuarios", lazy="select")
     servicios_como_contratante = relationship("Servicio", foreign_keys="[Servicio.id_contratante]", back_populates="contratante")
     servicios_como_contratado = relationship("Servicio", foreign_keys="[Servicio.id_contratado]", back_populates="contratado")
@@ -51,14 +55,20 @@ class Usuario(db.Model):
         self.ciudad_id = ciudad_id
         self.ciudad = ciudad
 
-    # Métodos para manejar contraseñas
+    # --- MÉTODOS DE SEGURIDAD ---
+
     def set_password(self, password):
+        """Genera un hash bcrypt seguro."""
         salt = bcrypt.gensalt()
         self.contrasenia = bcrypt.hashpw(password.encode("utf-8"), salt).decode("utf-8")
 
     def check_password(self, password):
+        """Valida la contraseña contra el hash."""
+        if not self.contrasenia:
+            return False
         return bcrypt.checkpw(password.encode("utf-8"), self.contrasenia.encode("utf-8"))
 
+    # Requerido por Flask-Login
     def get_id(self):
         return str(self.id_usuario)
 
